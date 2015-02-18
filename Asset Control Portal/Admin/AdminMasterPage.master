@@ -1,0 +1,109 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AdminMasterPage.master.cs" Inherits="Admin_AdminMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Untitled Page</title>
+    <link href="StyleSheet.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+            height: 334px;
+        }
+        .style4
+        {
+            height: 109px;
+        }
+        .style5
+        {
+            height: 96px;
+        }
+        .style6
+        {
+            height: 58px;
+        }
+        .style7
+        {
+            height: 58px;
+            width: 52px;
+        }
+        .style8
+        {
+            height: 27px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="MainDiv">
+        <div id="PicDiv">
+            <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/acp.jpg" Height="63px" Width="215px" />
+        </div>
+        <div id="TitleDiv">
+            Welcome to Asset Control Portal</div>
+        <div id="ContentDiv" style="background-color: #000000">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="LeftDiv">
+            <table class="style1">
+                <tr>
+                    <td class="style8" colspan="3">
+                        Welcome Admin</td>
+                </tr>
+                <tr>
+                    <td class="style5" colspan="3">
+                        <asp:ImageButton ID="ImageButton1" runat="server" 
+                            ImageUrl="~/Images/IT_200x100-ITConnect-highlight.jpg" 
+                            onclick="ImageButton1_Click" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="style4" colspan="3">
+                        <asp:ImageButton ID="ImageButton2" runat="server" 
+                            ImageUrl="~/Images/IT_200x100_ITServices_new.jpg" 
+                            onclick="ImageButton2_Click"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="style6">
+                        <asp:ImageButton ID="ImageButton3" runat="server" 
+                            ImageUrl="~/Images/IT-75x50-Programs.jpg" onclick="ImageButton3_Click" 
+                            style="height: 50px"/>
+                    </td>
+                    <td class="style7">
+                        &nbsp;</td>
+                    <td class="style6">
+                        &nbsp;<asp:ImageButton ID="ImageButton4" runat="server" 
+                            ImageUrl="~/Images/IT_75X50_ITscorecard.jpg" 
+                            onclick="ImageButton4_Click" />
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <asp:ImageButton ID="ImageButton5" runat="server" 
+                            ImageUrl="~/Images/IT_75x50_PC_Refresh.jpg" onclick="ImageButton5_Click" />
+                    </td>
+                    <td>
+                        &nbsp;
+                        <asp:ImageButton ID="ImageButton6" runat="server" 
+                            ImageUrl="~/Images/IT_75x50_Print_Refresh.jpg" 
+                            onclick="ImageButton6_Click" />
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id = "DataDiv">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
+
