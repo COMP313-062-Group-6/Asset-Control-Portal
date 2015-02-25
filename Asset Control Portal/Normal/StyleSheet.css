@@ -1,0 +1,93 @@
+﻿body {
+}
+#MainDiv
+{
+	background-color:White;
+	height:540px;
+	width:1240px;
+	margin:0 auto;
+	
+	
+}
+#TitleDiv
+{
+	background-image:url(title2.jpg);
+	height:66px;
+	margin-left:225px;
+	width:1015px;
+	margin-right:5px;
+	font-size:xx-large;
+	color:White;
+	text-align:center;
+	font-weight:bolder;
+}
+#PicDiv
+{
+	height:66px;
+	width:220px;
+	position:absolute;
+	background-color:White;
+	margin-left:5px;
+}
+#ContentDiv
+{
+	height:25px;
+	margin-top:5px;
+	color:White;
+	font-weight:bold;
+	background-color:Black;
+}
+#LeftDiv
+{
+	margin-top:3px;
+	margin-bottom:7px;
+	height:440px;
+	width:205px;
+	background-color:White;
+	position:absolute;
+
+}
+#CentreDiv
+{
+	margin-top:5px;
+	margin-bottom:50px;
+	margin-left:210px;
+	width:740px;
+	background-color:white;
+	position:absolute;
+	height:440px;
+	
+}
+#RightDiv
+{
+	margin-top:5px;
+	margin-bottom:2px;
+	height:440px;
+	width:285px;
+	float:right;
+	
+}
+#BottomDiv
+{
+	background-color:White;
+	width:1240px;
+	margin:0 auto;
+}
+#DataDiv
+{
+	height:437px;
+	float:right;
+	color:White;
+	width:1025px;
+	margin-top:5px;
+	margin-left:2px;
+	background-image:url('12.jpg');
+	overflow:auto;
+}
+
+#FullDiv
+{
+	margin-top:7px;
+	height:440px;
+	background-color:White;
+}
