@@ -17,6 +17,12 @@
         {
             width: 1306px;
         }
+        .auto-style1 {
+            width: 268435312px;
+        }
+        .auto-style2 {
+            width: 1221px;
+        }
     </style>
     </head>
 <body>
@@ -38,26 +44,26 @@
                 <tr>
                     <td class="style3" colspan="3">
                         <asp:ImageButton ID="ImageButton1" runat="server" 
-                            ImageUrl="~/Images/IT_200x100-ITConnect-highlight.jpg" 
-                            onclick="ImageButton1_Click" />
+                            ImageUrl="~/Images/centennial-college.jpg" 
+                            onclick="ImageButton1_Click" Height="121px" Width="201px" />
                     </td>
                 </tr>
                 <tr>
                     <td class="style3" colspan="3">
                         <asp:ImageButton ID="ImageButton2" runat="server" 
-                            ImageUrl="~/Images/IT_200x100_ITServices_new.jpg" 
-                            onclick="ImageButton2_Click" />
+                            ImageUrl="~/Images/Capture.JPG" 
+                            onclick="ImageButton2_Click" Height="120px" Width="198px" />
                     </td>
                 </tr>
                 <tr>
-                    <td class="style4" >
+                    <td class="auto-style2" >
                         <asp:ImageButton ID="ImageButton3" runat="server" 
-                            ImageUrl="~/Images/IT-75x50-Programs.jpg" onclick="ImageButton3_Click" 
+                            ImageUrl="~/Images/874164ca7a875c08cdeaf7ada352ac29.jpg" onclick="ImageButton3_Click" 
                             style="height: 50px" />
                     </td>
                     <td class="style3" colspan="2" >
                         &nbsp;<asp:ImageButton ID="ImageButton4" runat="server" 
-                            ImageUrl="~/Images/IT_75X50_ITscorecard.jpg" onclick="ImageButton4_Click" />
+                            ImageUrl="~/Images/Windows_Live_Search_logo.png" onclick="ImageButton4_Click" Height="55px" Width="63px" />
                     </td>
                     
                     
@@ -65,11 +71,11 @@
                 <tr>
                     <td colspan="2">
                         <asp:ImageButton ID="ImageButton5" runat="server" 
-                            ImageUrl="~/Images/IT_75x50_PC_Refresh.jpg" onclick="ImageButton5_Click" />
+                            ImageUrl="~/Images/bigstock-events-7444309.jpg" onclick="ImageButton5_Click" Width="94px" />
                     </td>
-                    <td>
+                    <td class="auto-style1">
                         &nbsp;<asp:ImageButton ID="ImageButton6" runat="server" 
-                            ImageUrl="~/Images/IT_75x50_Print_Refresh.jpg" onclick="ImageButton6_Click" />
+                            ImageUrl="~/Images/apply-pancard.jpg" onclick="ImageButton6_Click" Width="62px" />
                     </td>
                     
                 </tr>

@@ -72,7 +72,7 @@
             <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/acp.jpg" Height="63px" Width="215px" />
         </div>
         <div id="TitleDiv">
-            Welcome to Asset Control Portal</div>
+            Centennial College Asset Control Portal</div>
         <div id="ContentDiv">
             
             <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
@@ -81,61 +81,52 @@
         </div>
         <div id="LeftDiv" 
                  style="border-style: none none outset inset; border-width: medium; border-color: #000000">
-            <table class="style6">
+           <table>
                 <tr>
-                    <td class="style7" colspan="3">
-                        <asp:ImageButton ID="ImageButton1" runat="server" Height="100px" 
-                            ImageUrl="~/Images/IT_200x100-ITConnect-highlight.jpg" 
-                            onclick="ImageButton1_Click"  />
+                    <td class="style3" colspan="3">
+                        <asp:ImageButton ID="ImageButton1" runat="server" 
+                            ImageUrl="~/Images/centennial-college.jpg" 
+                            onclick="ImageButton1_Click" Height="121px" Width="201px" />
                     </td>
                 </tr>
                 <tr>
-                    <td class="style8" colspan="3">
+                    <td class="style3" colspan="3">
                         <asp:ImageButton ID="ImageButton2" runat="server" 
-                            ImageUrl="~/Images/IT_200x100_ITServices_new.jpg" 
-                            onclick="ImageButton2_Click" />
+                            ImageUrl="~/Images/Capture.JPG" 
+                            onclick="ImageButton2_Click" Height="120px" Width="198px" />
                     </td>
                 </tr>
                 <tr>
-                    <td class="style12">
+                    <td class="auto-style2" >
                         <asp:ImageButton ID="ImageButton3" runat="server" 
-                            ImageUrl="~/Images/IT-75x50-Programs.jpg" onclick="ImageButton3_Click" />
+                            ImageUrl="~/Images/874164ca7a875c08cdeaf7ada352ac29.jpg" onclick="ImageButton3_Click" 
+                            style="height: 50px" />
                     </td>
-                    <td class="style12">
-                        &nbsp;</td>
-                    <td class="style9">
-                        <asp:ImageButton ID="ImageButton4" runat="server" 
-                            ImageUrl="~/Images/IT_75X50_ITscorecard.jpg" 
-                            onclick="ImageButton4_Click"  />
+                    <td class="style3" colspan="2" >
+                        &nbsp;<asp:ImageButton ID="ImageButton4" runat="server" 
+                            ImageUrl="~/Images/Windows_Live_Search_logo.png" onclick="ImageButton4_Click" Height="55px" Width="63px" />
                     </td>
+                    
+                    
                 </tr>
                 <tr>
-                    <td class="style13" colspan="2">
+                    <td colspan="2">
                         <asp:ImageButton ID="ImageButton5" runat="server" 
-                            ImageUrl="~/Images/IT_75x50_PC_Refresh.jpg" onclick="ImageButton5_Click"/>
+                            ImageUrl="~/Images/bigstock-events-7444309.jpg" onclick="ImageButton5_Click" Width="94px" />
                     </td>
-                    <td class="style11">
-                        <asp:ImageButton ID="ImageButton6" runat="server" 
-                            ImageUrl="~/Images/IT_75x50_Print_Refresh.jpg" 
-                            onclick="ImageButton6_Click" />
+                    <td class="auto-style1">
+                        &nbsp;<asp:ImageButton ID="ImageButton6" runat="server" 
+                            ImageUrl="~/Images/apply-pancard.jpg" onclick="ImageButton6_Click" Width="62px" />
                     </td>
-                </tr>
-                <tr>
-                    <td class="style15" colspan="2">
-                        </td>
-                    <td class="style16">
-                        </td>
-                </tr>
-                <tr>
-                    <td class="style14" colspan="2">
-                        &nbsp;</td>
-                    <td class="style10">
-                        &nbsp;</td>
+                    
                 </tr>
             </table>
         </div>
         <div id="CentreDiv">
-       <iframe height="440" width="740" src="http://cdn.html5maker.com/bb4539a01303949287ed0623595a98c6d1de86aff69e.html" frameborder="0" scrolling="no" allowTransparency="true"></iframe>
+        <script type="text/javascript">
+            var bannersnack_embed = { "hash": "bc8e1sq5z", "width": 740, "height": 440, "t": 1428622894, "userId": 18666926, "bgcolor": "#3D3D3D", "wmode": "opaque" };
+</script>
+<script type="text/javascript" src="http://files.bannersnack.com/iframe/embed.js"></script>
             </div>
         <div id="RightDiv">
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">

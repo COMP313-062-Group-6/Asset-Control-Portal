@@ -28,10 +28,11 @@
     <form id="form1" runat="server">
      <div id="MainDiv">
         <div id="PicDiv">
-            <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/acp.jpg" Height="63px" Width="215px" />
+            <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/logo.jpg" />
         </div>
         <div id="TitleDiv">
-            Welcome to Asset Control Portal</div>
+            Welcome to Alcatel Lucent Managed IT Services<br />
+            And Asset Portal</div>
         <div id="ContentDiv">
             <table class="style5" width="100%">
         <tr>

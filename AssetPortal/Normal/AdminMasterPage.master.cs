@@ -19,26 +19,26 @@ public partial class Admin_AdminMasterPage : System.Web.UI.MasterPage
     }
     protected void ImageButton1_Click(object sender, ImageClickEventArgs e)
     {
-        Response.Redirect("http://all.alcatel-lucent.com/wps/portal/!ut/p/kcxml/04_Sj9SPykssy0xPLMnMz0vM0Y_QjzKLd4x3tNQvyHZUBACVOMvO?LMSG_CABINET=Internal_Resources&amp;amp;LMSG_CONTENT_FILE=Features_2010/BusGroup_CorpFunct_Features/Feature_Item_012623.xml");
+        Response.Redirect("http://www.centennialcollege.ca/");
     }
     protected void ImageButton2_Click(object sender, ImageClickEventArgs e)
     {
-        Response.Redirect("http://all.alcatel-lucent.com/wps/portal/!ut/p/kcxml/04_Sj9SPykssy0xPLMnMz0vM0Y_QjzKLt4z38nbSL8h2VAQAiXfVBA!!");
+        Response.Redirect("https://my.centennialcollege.ca/cp/home/displaylogin");
     }
     protected void ImageButton3_Click(object sender, ImageClickEventArgs e)
     {
-        Response.Redirect("http://all.alcatel-lucent.com/wps/portal/!ut/p/kcxml/04_Sj9SPykssy0xPLMnMz0vM0Y_QjzKLt4x38XTRL8h2VAQAj5eZUA!!");
+        Response.Redirect("http://library.centennialcollege.ca/library");
     }
     protected void ImageButton4_Click(object sender, ImageClickEventArgs e)
     {
-        Response.Redirect("http://all.alcatel-lucent.com/wps/portal/!ut/p/kcxml/04_Sj9SPykssy0xPLMnMz0vM0Y_QjzKLd4x3tNQvyHZUBACVOMvO?LMSG_CABINET=Internal_Resources&amp;amp;LMSG_CONTENT_FILE=Features/BusGroup_CorpFunct_Features/Feature_Item_004809.xml");
+        Response.Redirect("http://www.centennialcollege.ca/sitesearch.aspx?");
     }
     protected void ImageButton5_Click(object sender, ImageClickEventArgs e)
     {
-        Response.Redirect("https://all1.us.alcatel-lucent.com/it/projectcommunications/pcrefresh/Pages/default.aspx");
+        Response.Redirect("http://www.centennialcollege.ca/college-events-2014-2015/");
     }
     protected void ImageButton6_Click(object sender, ImageClickEventArgs e)
     {
-        Response.Redirect("https://all1.us.alcatel-lucent.com/it/projectcommunications/printerrefresh/Pages/default.aspx");
+        Response.Redirect("http://www.centennialcollege.ca/webforms/international/apply-online.html");
     }
 }
